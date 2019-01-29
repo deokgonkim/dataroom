@@ -1,0 +1,14 @@
+
+# install python mysql library
+#
+# as root
+# on ubuntu
+apt-get install python-mysqldb
+# on centos
+yum install MySQL-python
+
+
+
+# as django user
+pip install MySQL-python
+pip intall django-mysql
